@@ -12,7 +12,7 @@
 
 **Digital Presence** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/06-booking-flow-kit/) · [Report an issue](https://github.com/volta-npo/06-booking-flow-kit/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/booking-flow-kit/) · [Report an issue](https://github.com/volta-npo/booking-flow-kit/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -182,7 +182,7 @@ This repo is designed to be usable as a real OSS product, not just a static demo
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/06-booking-flow-kit.git
+git clone https://github.com/volta-npo/booking-flow-kit.git
 cd 06-booking-flow-kit
 npm install
 npm test

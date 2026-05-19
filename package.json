@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/06-booking-flow-kit.git"
+    "url": "git+https://github.com/volta-npo/booking-flow-kit.git"
   },
-  "homepage": "https://volta-npo.github.io/06-booking-flow-kit/",
+  "homepage": "https://volta-npo.github.io/booking-flow-kit/",
   "bugs": {
-    "url": "https://github.com/volta-npo/06-booking-flow-kit/issues"
+    "url": "https://github.com/volta-npo/booking-flow-kit/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
