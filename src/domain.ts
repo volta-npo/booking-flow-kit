@@ -76,17 +76,37 @@ export const domain = {
     "Cancellation policy written",
     "Fallback contact path present",
     "Test booking completed",
-    "Launch checklist exported"
+    "Launch checklist exported",
+    "Vendor shortlist scored",
+    "Intake form questions drafted",
+    "Reminder templates approved",
+    "No-show recovery path defined"
   ],
   "artifacts": [
     "Vendor decision matrix",
     "Reminder copy pack",
-    "QA script"
+    "QA script",
+    "Vendor scoring sheet",
+    "Booking intake form",
+    "No-show recovery playbook"
   ],
   "checks": [
     "Test booking required",
     "Cancellation/reschedule policy required",
-    "Fallback contact path required"
+    "Fallback contact path required",
+    "Vendor choice must match service duration needs",
+    "Reminder copy needs owner approval",
+    "No-show recovery must include phone fallback"
   ],
-  "sampleClient": "Riverside Community Bakery"
+  "sampleClient": "Riverside Community Bakery",
+  "saas": {
+    "personas": ["Booking flow consultant", "Service business owner", "Front desk operator"],
+    "stages": [
+      { "name": "Requirements mapping", "goal": "Translate service catalog, durations, policies, and staff constraints into booking requirements.", "rowPatterns": ["Service|Duration|pricing|Intake"] },
+      { "name": "Vendor decision", "goal": "Compare booking tools against friction, reminders, fallback, and owner workflow.", "rowPatterns": ["Tool comparison|Vendor|Reminder|Cancellation"] },
+      { "name": "Launch QA", "goal": "Run test bookings and export launch scripts for the owner team.", "rowPatterns": ["Test booking|Launch|No-show|Fallback"] }
+    ],
+    "sampleValues": { "primary-goal": "launch a tested booking flow with reminders and fallback" },
+    "sampleRows": { "Vendor shortlist scored": "Compared Calendly, Square Appointments, and Google booking links", "No-show recovery path defined": "SMS reminder, phone follow-up, and reschedule link sequence drafted" }
+  }
 };
