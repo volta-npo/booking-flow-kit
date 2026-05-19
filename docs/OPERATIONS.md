@@ -10,7 +10,7 @@ A practical decision kit for choosing, configuring, and QA-testing booking flows
 2. Attach evidence in the evidence locker.
 3. Complete the v1 workbench: Booking Flow Decision Matrix.
 4. Resolve readiness warnings.
-5. Certify v3 gates only with real project evidence.
+5. Certify release gates only with real project evidence.
 6. Export JSON, CSV, Markdown, and print packets for the project folder.
 
 ## Domain outputs
